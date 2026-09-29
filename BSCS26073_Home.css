@@ -1,0 +1,262 @@
+.navbar {
+    background-color: #5a54c3;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration:none;
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    text-decoration:none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    
+
+}
+
+.links:hover {
+    color: black;
+    transform: scale(1.9px);
+    
+
+}
+
+.About-us {
+    Width: 100%;
+    height: 600px;
+    position: relative;
+    
+    
+
+
+}
+
+#bg-img {
+    width: 100%;
+    height: 100%; 
+    border-radius: 15px;
+}
+
+.Text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+}
+
+.Explore-products {
+    Width: 65%;
+    position: relative;
+    
+}
+
+#products-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 23px;
+    position: relative;
+    top: 45%;
+    left: 27%;
+}
+
+#Explore-products-text {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+}
+
+button {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    background-color: #070606b2;
+    color: rgb(4, 4, 4);
+    border-radius: 23px;
+    border:none;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #8d8d8e;
+    color: white;
+    
+}
+
+
+.contact-us {
+    top: 100%;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+#footer {
+    top: 100%;
+    bottom: 0;
+    background-color: #5a54c3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#Product-1 {
+    position:relative;
+    width: 100%;
+    height: 400px;
+    background: #635f5f;
+    border-radius: 20px;
+    
+    
+   
+}
+
+
+
+.products-heading {
+    position: relative;
+    left:43%;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#product1 {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    
+
+}
+
+#Product-2 {
+    position:relative;
+    width: 100%;
+    height: 400px;
+    background: #545286;
+    border-radius: 20px;
+
+}
+#product2 {
+    position: relative;
+    top: 13%;
+    left: 10%;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+#description {
+    position: relative;
+    font: size 20px;
+    left: 40%;
+    bottom: 50%;
+}
+
+#description-2 {
+    position: relative;
+    font: size 20px;
+    left: 40%;
+    bottom: 50%;
+
+}
+
+#Product-3 {
+    position:relative;
+    width: 100%;
+    height: 400px;
+    background: #9762b1;
+    border-radius: 20px;
+
+}
+
+#product3 {
+    position: relative;
+    top: 13%;
+    left: 10%;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+#description-3 {
+     position: relative;
+    font: size 20px;
+    left: 40%;
+    bottom: 58%;
+
+}
+
+#contact {
+    margin-left: 50px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#contact-info {
+    position:relative;
+    width: 50%;
+    height: 300px;
+    background: #6398d1;
+    border-radius: 20px;
+   
+
+}
+
+.contact-txt {
+    position: relative;
+    top:20%;
+
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.availability-msg {
+    position: absolute;
+    top: 80%;              /* just below the button (which is at 66%) */
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
